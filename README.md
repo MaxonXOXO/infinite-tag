@@ -83,7 +83,7 @@ Click "Export Annotations" button
 Download the JSON file with all annotation data
 
 📁 Project Structure
-text
+```
 my-annotation-app/
 ├── public/
 │   ├── index.html
@@ -98,6 +98,7 @@ my-annotation-app/
 │   ├── App.css                 # Application styles
 │   └── index.js                # React entry point
 └── package.json
+```
 🛠️ Technical Details
 Built With
 React 18 - Frontend framework
@@ -110,6 +111,7 @@ JavaScript ES6+ - Application logic
 
 Annotation Data Format
 json
+```
 {
   "exportDate": "2024-01-15T10:30:00.000Z",
   "imageId": "local-image",
@@ -133,6 +135,7 @@ json
     }
   ]
 }
+```
 🎮 Controls Reference
 Action	Method
 Upload Image	Click "Upload Image" button
@@ -202,41 +205,4 @@ Icons and UI patterns from modern web standards
 
 ⭐ If you find this project useful, please give it a star!
 
-text
-
-## To create and add this README:
-
-1. **Create the file** in your project root:
-```bash
-touch README.md
-Copy the content above into the file
-
-Add and commit it:
-
-bash
-git add README.md
-git commit -m "docs: add comprehensive README.md"
-git push
-Key sections included:
-Badges for quick project info
-
-Features with emojis for visual appeal
-
-Quick start instructions
-
-Detailed usage guide
-
-Project structure
-
-Technical details and data format
-
-Controls reference table
-
-Development instructions
-
-Future enhancements roadmap
-
-Author credit with your GitHub username
-
-This README will make your project look professional and help others understand how to use your annotation tool! 🚀
 
